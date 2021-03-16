@@ -9,7 +9,7 @@ public class ABC {
 
         Pattern pattern = Pattern.compile("[\\[ ,.!?\\]]");
 
-        String []S = pattern.split(input);
+        String []S = pattern.split(output);
 
 
         for(String word:S)
